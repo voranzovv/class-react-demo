@@ -15,7 +15,7 @@ const TodoTable = ({tasks, onDelete}) => {
                 <th>Description</th>
                 <th>Delete</th>
             </tr>
-            </thead>
+            </thead>  
             <tbody>
             {tasks.map((task, index)=>{
                 return(
